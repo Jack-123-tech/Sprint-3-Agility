@@ -1,0 +1,24 @@
+while robot has not reached 3' 3":
+  roll robot
+delay robot for x seconds
+make robot turn right
+
+while robot has not reached 3' 4":
+  roll robot
+delay robot for x seconds
+make robot turn left
+
+while robot has not reached 3' 10":
+  roll robot
+make robot turn right
+
+while robot has not reached ramp:
+  roll robot
+jump ramp
+delay robot for x seconds
+turn robot in a 45º angle to the right
+
+while robot has not reached 7' 1"
+  roll robot
+hit markers
+stop robot
